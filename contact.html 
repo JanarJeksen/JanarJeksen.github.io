@@ -1,0 +1,32 @@
+  </div>
+</nav>
+
+<form>
+  <p> Name: <input type="text" name="first-name" placeholder="My name is..." required></p>
+  <p> E-mail: <input type="text" name="email-address" placeholder="My email is..." required></p>
+  <p> What's up </p>
+  <textarea name="message"col="40" row="5" placeholder="Enter your message here" required></textarea>
+</form>
+
+<p> How Should I get in touch with you? </p>
+<select name="method-for-contact">
+  <option name="method-for-contact" value="email">E-mail</option>
+  <option name="method-for-contact" value="text">Text</option>
+  <option name="method-for-contact" value="email">Phone</option>
+  <option name="method-for-contact" value="email">Do Not Contact Me! </option>
+</select>
+
+<p> What are you interested in? </p>
+  <input type="checkbox" name=="service" value="photography">Photography<br/>
+  <input type="checkbox" name=="service" value="video">Video<br/>
+  <input type="checkbox" name=="service" value="web-design">Web-Design<br/>
+</p>
+
+<p>Do you love me?</p>
+  <input type="radio" name=="love" value="yes">Yes<br/>
+  <input type="radio" name=="love" value="No">No<br/>
+
+<!-- Site footer -->
+<footer class="footer">
+  <p>&copy; 2016 Company, Inc. </p>
+</footer>
